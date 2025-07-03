@@ -1,9 +1,9 @@
 import landingimg from "../../assets/landingpage.jpg";
 
-export default function LandingPage() {
+export default function LandingPage() { 
   return (
-    <div className="w-screen h-screen font-serif overflow-hidden">
-      <div className="relative w-full h-1/2">
+    <div className="font-serif overflow-hidden mb-[20px]">
+      <div className="relative h-[300px]">
         {/* Blurred Background Image */}
         <img
           src={landingimg}
